@@ -13,16 +13,19 @@
 <body>
     <section class="container">
         <p>
-            5) Escreva um programa para ler um valor e escrever se é positivo ou negativo. Considere o valor
-            zero como positivo
+            11) Escreva um programa que verifique a validade de uma senha fornecida pelo usuário. A senha 
+            válida é o número 1234. Devem ser impressas as seguintes mensagens: 
+            ACESSO PERMITIDO caso a senha seja válida. 
+            ACESSO NEGADO caso a senha seja inválida. 
         </p>
         <form>
             <div class="form-groups">
-                <label for="valor">Digite um valor</label>
-                <input type="number" name="valor" id="valor" class="form-control">
+                <label for="senha">Senha: </label>
+                <input type="text" name="senha" id="senha" class="form-control">
             </div>
+
             <div class="form-groups">
-                <button type="button" class="btn btn-danger" onclick="controllerValidacao()">Verificar</button>
+                <button type="button" class="btn btn-secondary" onclick="controllerAcesso()">Enviar</button>
             </div>
         </form>
 
@@ -30,6 +33,6 @@
     </section>
 </body>
 
-<script src="/selecao/js/05.js"></script>
+<script src="/selecao/js/11.js"></script>
 
 </html>
